@@ -1,0 +1,22 @@
+server:
+  port: 6001
+
+spring:
+  application:
+    name: tensquare-base
+  datasource:
+    url: jdbc:mysql://118.31.225.207:3306/tensquare?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: hz12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    database: mysql
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6011/eureka
+      #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: springCloud-provider-base6001     # 自定义服务名称信息
+    prefer-ip-address: true                       # 访问路径显示ip 信息
