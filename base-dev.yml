@@ -19,3 +19,6 @@ eureka:
   instance:
     instance-id: springCloud-provider-base6001     # 自定义服务名称信息
     prefer-ip-address: true                       # 访问路径显示ip 信息
+  rabbitmq:
+    host: 118.31.225.207
+    port: 5673
