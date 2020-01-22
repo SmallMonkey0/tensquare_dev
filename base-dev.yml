@@ -1,6 +1,5 @@
 server:
   port: 6001
-
 spring:
   application:
     name: tensquare-base
@@ -18,5 +17,5 @@ eureka:
       defaultZone: http://localhost:6011/eureka
       #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
-    instance-id: springCloud-provider-base6001     # ×Ô¶¨Òå·şÎñÃû³ÆĞÅÏ¢
-    prefer-ip-address: true                       # ·ÃÎÊÂ·¾¶ÏÔÊ¾ip ĞÅÏ¢
+    instance-id: springCloud-provider-base6001     # è‡ªå®šä¹‰æœåŠ¡åç§°ä¿¡æ¯
+    prefer-ip-address: true                       # è®¿é—®è·¯å¾„æ˜¾ç¤ºip ä¿¡æ¯
